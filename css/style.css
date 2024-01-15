@@ -34,3 +34,28 @@ h1{
 .evidenziato{
   background-color: yellow;
 }
+
+
+/*INIZIO modifiche alla tabella */
+.grandezza-cella{
+  width: 300px;
+}
+
+.grandezza-cella.descrizione{
+  width: 800px;
+}
+
+thead{
+  background-color: rgb(25, 178, 255);
+  text-align: left;
+}
+
+th{
+  color: white;
+}
+
+.riga-colorata{
+  background-color: rgb(130, 236, 255);
+}
+
+/*FINE modifiche alla tabella */
