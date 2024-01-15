@@ -9,3 +9,28 @@ header{
   background-color: rgba(81, 81, 255, 0.684);
 }
 
+h2{
+  color: white;
+  font-size: 50px;
+}
+
+h1{
+  font-size: 50px;
+}
+
+.intro{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.grigio{
+  color: rgb(143, 143, 143);
+}
+
+.celeste{
+  color: rgb(97, 192, 250);
+}
+
+.evidenziato{
+  background-color: yellow;
+}
