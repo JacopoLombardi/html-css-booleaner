@@ -1,18 +1,21 @@
 
-body{
-  margin: 0;
-}
 
+/* INIZIO Header */
 header{
-  height: 100px;
+  height: 150px;
   background-image: url(../img/pattern.png);
   background-color: rgba(81, 81, 255, 0.684);
+  background-size: contain;
 }
 
 h2{
   color: white;
   font-size: 50px;
+  margin: 0;
 }
+
+/* FINE Header */
+
 
 h1{
   font-size: 50px;
@@ -36,7 +39,7 @@ h1{
 }
 
 
-/*INIZIO modifiche alla tabella */
+/*INIZIO modifiche alla tabella TERZA Sezione */
 .grandezza-cella{
   width: 300px;
 }
@@ -58,4 +61,21 @@ th{
   background-color: rgb(130, 236, 255);
 }
 
-/*FINE modifiche alla tabella */
+/*FINE modifiche alla tabella TERZA Sezione*/
+
+
+.imgfooter1{
+  background-image: url(../img/monitor.jpg);
+}
+
+.imgfooter2{
+  background-image: url(../img/graph.jpg);
+}
+
+.imgfooter1, .imgfooter2{
+  width: 200px;
+  height: 150px;
+  color: white;
+  font-size: 20px;
+  background-size: cover;
+}
