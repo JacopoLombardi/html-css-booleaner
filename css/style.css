@@ -5,24 +5,28 @@ header{
   height: 150px;
   background-image: url(../img/pattern.png);
   background-color: rgba(81, 81, 255, 0.684);
-  background-size: contain;
+  background-size: 30%;
 }
 
 .logo{
   width: 400px;
-  height: 220px;
+  padding-top: 50px;
+  padding-left: 20px;
 }
 
 /* FINE Header */
 
 
 h1{
-  font-size: 50px;
+  font-size: 60px;
+  margin-top: 15px;
+  margin-bottom: 0px;
 }
 
 .intro{
   font-size: 20px;
   font-weight: bold;
+  margin: 0;
 }
 
 .grigio{
@@ -33,12 +37,21 @@ h1{
   color: rgb(97, 192, 250);
 }
 
+.caption-img{
+  margin: 0;
+}
+
 .evidenziato{
   background-color: yellow;
 }
 
 
 /*INIZIO modifiche alla tabella TERZA Sezione */
+
+table{
+  border-collapse: collapse;
+}
+
 .grandezza-cella{
   width: 300px;
 }
@@ -50,9 +63,6 @@ h1{
 thead{
   background-color: rgb(25, 178, 255);
   text-align: left;
-}
-
-th{
   color: white;
 }
 
